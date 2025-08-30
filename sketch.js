@@ -98,12 +98,12 @@ function keyPressed(){
 	}if (bobstrength>=4){
 		Matter.Body.applyForce(bob4.body, bob4.body.position,{x:-100,y:-75});
 	}}
-}
+
 	if (keyCode === DOWN_ARROW){
 		bobstrength+=1;
 	}
 	if (bobstrength>4){
 		bobstrength=1;
 	}
-	
+	}	
 }
