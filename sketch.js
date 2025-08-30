@@ -99,7 +99,7 @@ function keyPressed(){
 		Matter.Body.applyForce(bob4.body, bob4.body.position,{x:-100,y:-75});
 	}}
 }
-	if (keyCode === 107){
+	if (keyCode === 32){
 		bobstrength+=1;
 	}
 	if (bobstrength>4){
